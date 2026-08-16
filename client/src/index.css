@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.resume-page {
+  width: 210mm;
+  min-height: 297mm;
+  background: white;
+  color: #1e293b;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+}
